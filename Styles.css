@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
